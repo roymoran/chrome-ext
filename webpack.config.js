@@ -5,7 +5,8 @@ const path = require('path');
 module.exports = {
     entry: {
         main: './src/index.ts',
-        background: './src/background/background.ts'
+        background: './src/background.ts',
+        content: './src/contentscript.ts'
     },
     output: {
         filename: '[name].bundle.js',
