@@ -1,1 +1,1 @@
-console.log("contentscript.ts");
+console.log("content.ts");
