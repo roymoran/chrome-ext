@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf dist && cpy manifest.json dist && cpy src/assets/* dist/assets",
+    "clean": "rm -rf dist && cpy manifest.json dist && cpy src/assets/* dist/assets && cpy src/popup/* dist/popup",
     "prebuild": "npm run clean",
     "build": "NODE_ENV=production webpack --config webpack.config.js",
     "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
