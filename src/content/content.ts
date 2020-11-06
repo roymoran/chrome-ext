@@ -1,3 +1,3 @@
-import '../assets/stylesheets/content.scss';
+import '../stylesheets/content.scss';
 
 console.log("content.ts");
