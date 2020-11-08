@@ -6,8 +6,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: {
         main: './src/index.ts',
-        background: './src/background/background.ts',
-        content: './src/content/content.ts'
+        background: './src/extension/background/background.ts',
+        content: './src/extension/content/content.ts'
     },
     output: {
         filename: '[name].bundle.js',
